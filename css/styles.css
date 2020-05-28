@@ -14,3 +14,19 @@ body {
 h1, h2 {
   color: yellow;
 }
+
+@media screen and (max-width: 400px) and (min-width: 300px) {
+  body {
+    background-color: purple;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  body {
+    background-color: gold;
+  }
+
+  h1 {
+    color: tomato;
+  }
+}
