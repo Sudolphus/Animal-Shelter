@@ -1,0 +1,16 @@
+.column {
+  float: left;
+  border: 2px solid black;
+  padding: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  column-width: 30%;
+}
+
+body {
+  background-color: red;
+}
+
+h1, h2 {
+  color: yellow;
+}
